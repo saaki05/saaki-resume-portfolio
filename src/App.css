@@ -1,0 +1,64 @@
+/* Global */
+.App {
+  text-align: center;
+}
+
+/* Header container */
+.App-header {
+  background-color: #0b0f19;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== HERO TEXT ANIMATION FIX ===== */
+
+.hero-text {
+  font-size: 3rem;
+  font-weight: 700;
+  display: inline-block;     /* REQUIRED for animation */
+  overflow: hidden;          /* REQUIRED for reveal */
+  white-space: nowrap;       /* animation constraint */
+  animation: revealText 1.5s ease forwards;
+}
+
+/* Inner span fixes block-wise issue */
+.hero-text-inner {
+  display: inline;
+  white-space: normal;       /* allows proper text flow */
+}
+
+/* Sub text */
+.hero-sub {
+  margin-top: 12px;
+  font-size: 1.2rem;
+  opacity: 0;
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 1.6s;
+}
+
+/* ===== ANIMATIONS ===== */
+
+@keyframes revealText {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
