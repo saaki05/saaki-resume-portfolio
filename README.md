@@ -1,5 +1,5 @@
 <h2 align="center">
-  Saaketh Gadepalli — Portfolio
+  Saaketh Gadepalli - Portfolio
 </h2>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 ## About
 
-I'm a Computer Science undergraduate at Chennai Institute of Technology, building production-grade software end-to-end — from REST APIs and database design to training and deploying explainable deep learning models for medical imaging. This site is where I showcase my projects, skills, and experience.
+I'm a Computer Science undergraduate at Chennai Institute of Technology, building production-grade software end-to-end - from REST APIs and database design to training and deploying explainable deep learning models for medical imaging. This site is where I showcase my projects, skills, and experience.
 
 ## Built With
 
@@ -38,11 +38,11 @@ I'm a Computer Science undergraduate at Chennai Institute of Technology, buildin
 
 ## Features
 
-**Multi-page layout** — Home, About, Projects, Resume
+**Multi-page layout** - Home, About, Projects, Resume
 
-**Responsive design** — works across desktop, tablet, and mobile
+**Responsive design** - works across desktop, tablet, and mobile
 
-**Live resume preview** — view and download my current resume directly from the site
+**Live resume preview** - view and download my current resume directly from the site
 
 ## Getting Started
 
