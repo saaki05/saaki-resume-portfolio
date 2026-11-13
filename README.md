@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-nine-sable-38.vercel.app/" target="_blank">🔗 Live Site</a>
+  <a href="https://saaki-resume-portfolio-g4gzc7eqk-saaki.vercel.app/project/" target="_blank">🔗 Live Site</a>
 </p>
 
 <div align="center">
